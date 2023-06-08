@@ -1,0 +1,9 @@
+2023-06-08 16:21:40,011 - claranet-ticket-booking-system - DEBUG - called a put method of queue.
+2023-06-08 16:21:40,011 - claranet-ticket-booking-system - INFO - Returning the ticket.
+2023-06-08 16:26:38,575 - claranet-ticket-booking-system - DEBUG - called a put method of queue.
+2023-06-08 16:26:38,575 - claranet-ticket-booking-system - INFO - Returning the ticket.
+2023-06-08 16:28:02,264 - claranet-ticket-booking-system - DEBUG - called a put method of queue.
+2023-06-08 16:28:02,264 - claranet-ticket-booking-system - INFO - Returning the ticket.
+2023-06-08 16:32:08,230 - claranet-ticket-booking-system - DEBUG - called a put method of queue.
+2023-06-08 16:32:08,230 - claranet-ticket-booking-system - INFO - Returning the ticket.
+2023-06-08 16:32:08,231 - claranet-ticket-booking-system - INFO - All the customers have successfully received tickets.
