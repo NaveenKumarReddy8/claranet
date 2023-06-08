@@ -131,14 +131,15 @@ if __name__ == "__main__":
     time_to_process_each_ticket = int(
         input("Please enter the time taken to process each ticket in seconds: \t").strip()
     )
+    print("*" * 60)
     ticket_booking_center = TicketBookingCenter(
         max_counters=max_counters,
         max_queue_capacity=max_queue_capacity,
         time_to_process_each_ticket=time_to_process_each_ticket,
     )
     customers = ticket_booking_center.orchestrate(get_customer_data())
+    print("*" * 60)
     for c in customers:
-        print(c)
         print(
-            f"Total time consumed by {c.name} for {c.number_of_tickets} tickets is {c.tickets[-1].issue_time-c.entered_time}"
+            f"Total time consumed by {c.name} who entered the booking center at: {c.entered_time} for {c.number_of_tickets} tickets is {c.tickets[-1].issue_time-c.entered_time}"
         )
